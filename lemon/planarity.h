@@ -605,6 +605,11 @@ namespace lemon {
     PlanarEmbedding(const Graph& graph)
       : _graph(graph), _embedding(_graph), _kuratowski(graph, false) {}
 
+    /// \brief The subscript operator
+    Arc operator[](Arc key) const {
+      return _embedding[key];
+    }
+
     /// \brief Run the algorithm.
     ///
     /// This function runs the algorithm.
