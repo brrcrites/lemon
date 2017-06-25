@@ -30,3 +30,16 @@
 *.exe
 *.out
 *.app
+
+# Lemon Specific Files
+Makefile
+config.*
+.*
+doc/Doxyfile
+lemon/lemon.pc
+lemon/stamp-h2
+libtool
+stamp-h1
+tools/dimacs-solver
+tools/dimacs-to-lgf
+

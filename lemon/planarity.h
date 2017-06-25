@@ -605,11 +605,6 @@ namespace lemon {
     PlanarEmbedding(const Graph& graph)
       : _graph(graph), _embedding(_graph), _kuratowski(graph, false) {}
 
-    /// \brief The subscript operator
-    Arc operator[](Arc key) const {
-      return _embedding[key];
-    }
-
     /// \brief Run the algorithm.
     ///
     /// This function runs the algorithm.
@@ -724,6 +719,11 @@ namespace lemon {
     /// outgoing arcs of its source node.
     const EmbeddingMap& embeddingMap() const {
       return _embedding;
+    }
+
+    /// \brief The subscript operator
+    const Arc operator[](const Arc& arc) const {
+      return _embedding[arc];
     }
 
     /// \brief Give back \c true if the given edge is in the Kuratowski
