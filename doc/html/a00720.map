@@ -1,0 +1,7 @@
+<map id="Exception" name="Exception">
+<area shape="rect" id="node3" href="$a00030.html" title="ArgParserException" alt="" coords="5,80,140,107"/>
+<area shape="rect" id="node5" href="$a00200.html" title="This exception is thrown when the license check is not sufficient." alt="" coords="165,80,259,107"/>
+<area shape="rect" id="node7" href="$a00143.html" title="Format error." alt="" coords="283,80,373,107"/>
+<area shape="rect" id="node9" href="$a00184.html" title="Input&#45;Output error." alt="" coords="397,80,455,107"/>
+<area shape="rect" id="node11" href="$a00263.html" title="Exception thrown by RadixHeap." alt="" coords="480,80,627,107"/>
+</map>
